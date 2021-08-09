@@ -1,0 +1,33 @@
+.feed{
+    flex:5.5
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+
+.h2-color{
+    color: black;
+    padding: 0.5rem;
+}
+
+.bonusBoxWrapper{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.buttonCSS{
+    background-color: white;
+    border: solid rgb(45, 197, 91);
+    color: rgb(45, 197, 91);
+    width: 100%;
+}
+
+.active{
+    background-color: rgb(45, 197, 91);
+}

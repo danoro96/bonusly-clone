@@ -1,0 +1,24 @@
+type User @model @auth(rules: [{ allow: private }]) {
+  id: ID!
+  name: String!
+  # posts: [Post]
+  # comments: [Comment]
+}
+
+type Post @model @auth(rules: [{ allow: private }]) {
+  id: ID!
+  desc: String!
+  date: String!
+  username: String
+  userId: String
+  like: Int
+  comment: Int
+  gifUrl: String
+}
+
+# type Comment @model @auth(rules: [{ allow: private }]) {
+#   id: ID!
+#   postID: ID!
+#   post: Post
+#   content: String!
+# }

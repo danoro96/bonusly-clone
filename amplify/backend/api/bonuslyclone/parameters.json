@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "bonuslyclone",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authbonuslyclone8b76494f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

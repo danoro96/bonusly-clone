@@ -1,0 +1,12 @@
+.subHomeContainer{
+    display: flex;
+    flex: 2;
+    margin: 0 8rem;
+}
+
+.homeContainer{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(rgb(45, 197, 91) 10%, transparent 10%) no-repeat;
+    z-index: 1;
+}
